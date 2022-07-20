@@ -1,3 +1,14 @@
+'''
+Print all permutations of the given array
+Take a map/freq array which specifies whether the element is taken or not
+e.g. nums = [1, 2, 3]
+     freq = [False, False, False]
+     If taken freq[i] is changed to True
+     Ans if len(ds) == len(nums)
+     The ds is copied to the ans
+     The use of backtracking is done
+     While going to another permutation the freq[i] is changed back to False
+'''
 class Solution:
     def permute(self, nums):
         ans = []
